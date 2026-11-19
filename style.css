@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+:root {
+    scrollbar-gutter: auto;
+    --primary-color: #933C24;
+    --secondary-color:#E9BD8C;
+    --background-color:white;
+    --font-primary: "Sansita Swashed", system-ui
+}
+
+
+
+
+.header {
+    background-image: url('./assests/hero-bg.png');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.logo {
+    width: 70px;
+    height: 80px;
+}
+
+
+.text-icon{
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+.nav-link {
+    color: var(--background-color);
+    font-weight: 600;
+}
+
+.active {
+    color: var(--secondary-color) !important;
+}
+
+.hero {
+    position: absolute;
+    top: 35%;
+    margin: 0 50px;
+}
+
+
+.hero p {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.hero h1 {
+    color: white;
+    width: 300px;
+    margin-bottom: 50px;
+    font-family: var(--font-primary);
+    font-size: 50px;
+}
+
+.hero .primary-btn {
+    background-color: var(--primary-color);
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+
+.header .secondary-btn {
+    background: none;
+    color: var(--secondary-color);
+    border: 0;
+}
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+.navbar-toggler {
+    background-color: black;
+}
+
+@media (max-width:500px){
+    .header {
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+.primary-title {
+    font-family: var(--font-primary);
+    margin: 50px 0;
+    text-align: center;
+}
+
+
+.card {
+    background-image: url(./assests/card-bg.png);
+    background-size: cover;
+}
+
+.card-img-top {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+.card-body {
+    border: 0;
+}
+
+.product-text {
+    width: 150px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.currency {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.product-button {
+    background-color: var(--primary-color);
+    border: 0;
+    color: var(--background-color);
+    padding: 7px 14px;
+    font-size: 20px;
+    border-radius: 4px;
+    letter-spacing: 0;
+}
+
+.nav-tabs  a{
+    color:#5D5D5D;
+    font-weight: 600;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 2px;
+}
+
+.product {
+    height: 350px;
+}
+
+.product-highlighted {
+justify-content: space-between;
+}
+
+
+.product-highlighted h5 {
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+
+.footer {
+    background-image: url(./assests/bg-footer.png);
+}
+
+.footer-sec  h2{
+color: var(--secondary-color);
+}
+
+.footer-sec h4 {
+    color: white;
+}
+
+.copy-right{
+    text-align: center;
+    color: #737373;
+}
+
+.footer-img {
+    height: 60px;
+    width: 80px;
+}
+
+.footer-img-date {
+    color: var(--secondary-color);
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer-img-desc {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+}
