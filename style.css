@@ -1,0 +1,23 @@
+:root {
+    scrollbar-gutter: auto !important;
+}
+
+
+
+
+
+.carousel-item img {
+    height: 300px;
+}
+
+.absolute-box {
+    position: relative;
+}
+
+.absolute-box .absolute-content{
+    position: absolute;
+    top: 30%;
+    color: white;
+    text-align: center;
+    padding: 0 50px;
+}
