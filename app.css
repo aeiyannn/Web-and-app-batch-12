@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: red;
+    /* height: calc(100px -20px - 20px);
+    width: calc(100px - 20px - 20px); */
+    height: 100px;
+    width: 100px;
+    /* top right bottom left */
+    padding: 10px 20px 10px 20px;
+    border: 10px solid green;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+.block {
+background-color: red;
+height: 100px;
+width: 100px;
+}
+
+.inline {
+    display: inline-block;
+    background-color: purple;
+    height: 100px;
+    width: 200px;
+
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+
+.navbar {
+    display: inline-block;
+    width: calc(100% - 130px);
+}
+
+.header {
+    background-color: rgb(169, 236, 169);
+}
+
+.navbar-links {
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    padding:20px
+
+    
+}
+
+.login {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.card {
+    height: 420px;
+    width: 320px;
+    background-color: rgb(0, 195, 255);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card-img {
+    width: 90%;
+    height: 40%;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 12px;
+
+}
+
+.text-title , .text-desc {
+    text-align: center;
+      font-family: "Black Ops One", system-ui;
+  font-style: normal;
+}
+
+.text-title {
+    color: blue;
+}
+
+.card-btn {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+.card {
+    display: inline-block;
+}
