@@ -1,0 +1,44 @@
+/* :root {
+
+} */
+
+/* universal property apply beyond html */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* .contianer {
+    background-color: red;
+    min-width: 500px;
+    width: 100%
+} */
+
+/* .box {
+    border:3px solid red;
+    width: 50%;
+    height: 300px;
+    overflow: auto;
+} */
+
+/* .parent {
+    width: 25%;
+} */
+
+.parent {
+    font-size: 30px;
+}
+
+.h-contain {
+    width: 50vw;
+    color: white;
+    font-size: 1em;
+    background-color: red;
+    /* border:3px solid red */
+}
+
+
+
+
