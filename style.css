@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 20px;
+    list-style: inside square;
+    /* list-style-image: url("./assets/Information_icon.svg\ \(2\).webp"); */
+}
+
+table , tr , td ,th {
+    border: 1px solid green;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+table {
+    /* border-collapse: collapse;
+    border-spacing: 10px 20px; */
+    width: 500px;
+    text-align: center;
+}
+
+.contact-info {
+    border: 2px solid green;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+label {
+    font-size: large;
+    color: red;
+}
+
+.input-row {
+    margin: 10px;
+}
+
+.contact-input {
+    border:2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+}
+
+textarea {
+    height: 100px !important;
+}
+
+
+.box1 {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.box2 {
+    /* position absoulte just create a sanbox window outside so the components can move freely on browser window but can't fixes the content */
+    /* position fixed locked the content on certain x and y axis */
+    position: fixed;
+    bottom:15px ;
+    right: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
