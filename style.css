@@ -1,0 +1,30 @@
+/* h1 {
+    color: orange;
+    background-color: cornsilk;
+}
+
+h2 {
+    color: orange;
+    background-color: cornsilk;
+} */
+ 
+body {
+    background-color: yellow;
+}
+
+/* class */
+.text-style {
+    color: orange;
+    background-color: azure;
+    text-align: center;
+}
+/* id */
+#h1-text {
+    color: blue;
+    font-size: 50px;
+}
+
+p {
+    font-weight: bolder;
+}
+
