@@ -1,0 +1,12 @@
+:root {
+    scrollbar-gutter: auto !important;
+}
+
+
+.navbar-brand , .nav-link {
+    color: white;
+}
+
+.table th ,.table td {
+    color: white !important;
+}
